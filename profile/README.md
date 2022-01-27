@@ -1,8 +1,10 @@
 # Welcome!
 
-You are on the landing page for our software for Pixel dice!
+You are on the landing page for Pixel dice software development!
 
 ![Two Pixels dice lighting up with multiple colors.](images/pixels_header.jpg)
+
+*Two Pixels dice lighting up with multiple colors.*
 
 Pixels are full of LEDs, smarts and no larger than regular dice, they can be
 customized to light up when and how you desire.
@@ -18,15 +20,17 @@ development effort to support Pixels on many platforms and
 
 # Software Overview
 
-Pixels related software can be grouped in three broad categories:
+Pixels software can be grouped in three broad categories:
 - Applications
 - Libraries
 - Firmware
 
-Here is the diagram showing the various applications and libraries for Pixels
+Below is a diagram showing the various applications and libraries for Pixels
 (firmware is not shown here).
 
 ![Diagram showing the Pixel library for each supported framework (.NET 5, Unity, Python, ReactNative and Web) and how they access Bluetooth APIs depending on the underlying platform (Windows, Apple, Android and Web) and language.](images/pixels_libraries_flavors.svg)
+
+*Diagram showing the Pixel library for each supported framework (.NET 5, Unity, Python, ReactNative and Web) and how they access Bluetooth APIs depending on the underlying platform (Windows, Apple, Android and Web) and language.*
 
 ## Applications
 
@@ -40,6 +44,8 @@ to use Pixels
 ### Official Pixel App
 
 ![Screenshot of the official Pixel app.](images/pixels_app.jpg)
+
+*Screenshot of the official Pixel app.*
 
 The *legacy* Pixel app shown during the
 [Kickstarter](https://www.kickstarter.com/projects/pixels-dice/pixels-the-electronic-dice)
@@ -84,6 +90,8 @@ of platforms and frameworks which each having different requirements
 Here is code snippet for Unity showing how to upload an animation to a Pixel:
 ![Sample code for Unity demonstrating how to upload an animation to a Pixel.](images/unity_code_sample.png)
 
+*Sample code for Unity demonstrating how to upload an animation to a Pixel.*
+
 For games using Pixels, we provide a Unity plugin available from this
 [repository](https://github.com/GameWithPixels/PixelsUnityPlugin).
 The technical documentation for the "Pixel" class is published
@@ -106,6 +114,8 @@ The native code for those platforms is fully
 ### Web Package
 
 ![Sample code demonstrating how to connect to a die using TypeScript.](images/web_code_sample.png)
+
+*Sample code demonstrating how to connect to a die using TypeScript.*
 
 For web developers we've released an early version of the Pixel library
 as an NPM [package](https://www.npmjs.com/package/pixels-library).
@@ -146,6 +156,8 @@ We also have run some tests with .NET 5 on Windows, leveraging the WinRT
 to connect to Pixels. We will publish a .NET package later this year.
 
 ![Sample code demonstrating how to connect to a die using C#.](images/dotnet_sample_code.png)
+
+*Sample code demonstrating how to connect to a die using C#.*
 
 ## Firmware
 
