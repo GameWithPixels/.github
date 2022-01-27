@@ -1,6 +1,6 @@
 # Welcome!
 
-You are on the landing page for Pixels electronic dice software development!
+You are on the landing page for software development related to Pixels Electronic Dice!
 
 ![Two Pixels dice lighting up with multiple colors.](images/pixels_header.jpg)
 
