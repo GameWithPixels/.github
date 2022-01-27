@@ -1,6 +1,7 @@
 # Welcome!
 
-You are on the landing page for software development related to Pixels Electronic Dice!
+You are on the landing page for software development related to Pixels
+Electronic Dice!
 
 ![Two Pixels dice lighting up with multiple colors.](images/pixels_header.jpg)
 
@@ -49,7 +50,7 @@ to use Pixels
 
 The *prototype* Pixels app (also known as the *legacy* app) shown during the
 [Kickstarter](https://www.kickstarter.com/projects/pixels-dice/pixels-the-electronic-dice)
-campaign was developed using the Unity game engine.
+campaign was developed using the [Unity](https://unity.com/) game engine.
 At the time this was the fastest way for us for to get the app done.
 It was also a good use case to test Pixels integration with a video game engine.
 
@@ -59,9 +60,8 @@ We are now in the process of moving the app to
 [React Native](https://reactnative.dev/), a JavaScript development framework
 designed to build mobile apps for iOS and Android.
 
-The source code for the Unity app is available from the
-[PixelsApp](https://github.com/GameWithPixels/PixelsApp)
-repository.
+The source code for the Unity app is available from the PixelsApp
+[repository](https://github.com/GameWithPixels/PixelsApp).
 
 We also have published an online
 [guide](https://github.com/GameWithPixels/PixelsApp/wiki/Pixels-App-Guide)
@@ -69,13 +69,14 @@ for the app that explains how to use the app and customize your Pixels.
 It's a good introduction to the terms and concepts we use to describe the dice
 various features such as profile, lighting pattern, gradient, LED pattern, etc.
 
-*Note:* development just got started on React Native so we haven't yet published any source code for it.
+*Note:* development just got started on React Native so we haven't yet
+published any source code for it.
 
 ## Libraries
 
 Any application using Pixels needs to connect to and communicate with the dice.
 Those communications happen over Bluetooth Low Energy, an open standard
-available on many platforms.
+available on many [platforms](https://en.wikipedia.org/wiki/Computing_platform).
 
 To help integrate Pixels with new or existing software, we are developing
 software libraries that provide a straightforward access to the dice features
@@ -83,7 +84,8 @@ while taking care of the technicalities of Bluetooth communications.
 
 We provide several implementations of the Pixels library to support a variety
 of platforms and frameworks which each have different requirements
-(programming language to use, available APIs to access Bluetooth, etc.)
+(programming language to use, available
+[API](https://en.wikipedia.org/wiki/API)s to access Bluetooth, etc.)
 
 ### Unity Plugin
 
@@ -97,16 +99,15 @@ For games using Pixels, we provide a Unity plugin available from this
 The technical documentation for the `Pixel` die class is published on this
 [page](https://gamewithpixels.github.io/PixelsUnityPlugin/class_systemic_1_1_unity_1_1_pixels_1_1_pixel.html).
 
-The plugin currently supports the Windows, iOS and Android
-platforms.
+The plugin currently supports Windows, iOS and Android platforms.
 It should also work on macOS but we haven't run tests yet.
 Linux support will be added at a later time.
 
 ### Native platforms
 
 We haven't released any specific package for native development.
-The native code from the Unity Plugin can be used as an example
-of how to use Bluetooth on the Windows, iOS, macOS and Android platforms.
+The native code from the Unity Plugin can be used as an example of how to use
+Bluetooth on Windows, iOS, macOS and Android platforms.
 
 The native code for those platforms is fully
 [documented](https://gamewithpixels.github.io/PixelsUnityPlugin/modules.html).
@@ -162,7 +163,7 @@ to connect to Pixels. We will publish a .NET package later this year.
 ## Firmware
 
 The firmware is a piece of code that runs on a Pixels' chip.
-Among other things, it takes care of lighting up the dice as expected and
+Among other things, it takes care of lighting up the die as expected and
 handles Bluetooth Low Energy communications.
 
 The firmware source code is available from this
