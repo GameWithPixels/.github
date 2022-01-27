@@ -1,6 +1,6 @@
 # Welcome!
 
-You are on the landing page for Pixels dice software development!
+You are on the landing page for Pixels electronic dice software development!
 
 ![Two Pixels dice lighting up with multiple colors.](images/pixels_header.jpg)
 
@@ -13,8 +13,8 @@ Check our [website](https://gamewithpixels.com/) for more info.
 GitHub is a website designed to host all kind of software's source code.
 We use it to store all the open source projects that we develop for Pixels.
 
-This page is good starting point if you are interested to develop software
-that connects to Pixels or if you are simply curious to learn more about our
+This page is good starting point if you are interested in developing software
+that connects to Pixels or if you want to learn more about our
 development effort to support Pixels on many platforms and
 [frameworks](https://en.wikipedia.org/wiki/Software_framework).
 
@@ -47,7 +47,7 @@ to use Pixels
 
 *Screenshot of the official Pixels app.*
 
-The *prototype* Pixels app shown during the
+The *prototype* Pixels app (also known as the *legacy* app) shown during the
 [Kickstarter](https://www.kickstarter.com/projects/pixels-dice/pixels-the-electronic-dice)
 campaign was developed using the Unity game engine.
 At the time this was the fastest way for us for to get the app done.
@@ -55,7 +55,7 @@ It was also a good use case to test Pixels integration with a video game engine.
 
 However Unity is better suited for developing video games rather than your
 typical mobile app.
-So we are now in the process of moving the app to
+We are now in the process of moving the app to
 [React Native](https://reactnative.dev/), a JavaScript development framework
 designed to build mobile apps for iOS and Android.
 
@@ -73,7 +73,7 @@ various features such as profile, lighting pattern, gradient, LED pattern, etc.
 
 ## Libraries
 
-Any application using Pixels need to connect to and communicate with the dice.
+Any application using Pixels needs to connect to and communicate with the dice.
 Those communications happen over Bluetooth Low Energy, an open standard
 available on many platforms.
 
@@ -81,8 +81,8 @@ To help integrate Pixels with new or existing software, we are developing
 software libraries that provide a straightforward access to the dice features
 while taking care of the technicalities of Bluetooth communications.
 
-We provide several implementation of the Pixels library to support a variety
-of platforms and frameworks which each having different requirements
+We provide several implementations of the Pixels library to support a variety
+of platforms and frameworks which each have different requirements
 (programming language to use, available APIs to access Bluetooth, etc.)
 
 ### Unity Plugin
@@ -94,7 +94,7 @@ Here is code snippet for Unity showing how to upload an animation to a die:
 
 For games using Pixels, we provide a Unity plugin available from this
 [repository](https://github.com/GameWithPixels/PixelsUnityPlugin).
-The technical documentation for the "Pixel" class is published
+The technical documentation for the "Pixels" class is published
 [here](https://gamewithpixels.github.io/PixelsUnityPlugin/class_systemic_1_1_unity_1_1_pixels_1_1_pixel.html).
 
 The plugin currently supports the Windows, iOS and Android
@@ -105,7 +105,7 @@ Linux support will be added at a later time.
 ### Native platforms
 
 We haven't released any specific package for native development.
-However the native code from the Unity Plugin can be used as an example
+The native code from the Unity Plugin can be used as an example
 of how to use Bluetooth on the Windows, iOS, macOS and Android platforms.
 
 The native code for those platforms is fully
@@ -120,7 +120,7 @@ The native code for those platforms is fully
 For web developers we've released an early version of the Pixels library
 as an NPM [package](https://www.npmjs.com/package/pixels-library).
 This TypeScript package is currently in development and will be updated
-all along this year.
+throughout 2022.
 The source code is available on GitHub from this
 [repository](https://github.com/GameWithPixels/PixelsWebPackage)
 and the technical documentation is published
@@ -130,7 +130,7 @@ and the technical documentation is published
 
 Work with the [React Native](https://reactnative.dev/) development framework
 has just started.
-Just like with Unity, we are aiming to release both a fully featured app
+Like with Unity, we are aiming to release both a fully featured app
 and a standalone package with support for Pixels on several platforms.
 
 The programming language used is TypeScript which allow us to share code
