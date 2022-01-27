@@ -94,8 +94,8 @@ Here is code snippet for Unity showing how to upload an animation to a die:
 
 For games using Pixels, we provide a Unity plugin available from this
 [repository](https://github.com/GameWithPixels/PixelsUnityPlugin).
-The technical documentation for the "Pixels" class is published
-[here](https://gamewithpixels.github.io/PixelsUnityPlugin/class_systemic_1_1_unity_1_1_pixels_1_1_pixel.html).
+The technical documentation for the "Pixels" class is published on this
+[page](https://gamewithpixels.github.io/PixelsUnityPlugin/class_systemic_1_1_unity_1_1_pixels_1_1_pixel.html).
 
 The plugin currently supports the Windows, iOS and Android
 platforms.
@@ -123,8 +123,7 @@ This TypeScript package is currently in development and will be updated
 throughout 2022.
 The source code is available on GitHub from this
 [repository](https://github.com/GameWithPixels/PixelsWebPackage)
-and the technical documentation is published
-[here](https://gamewithpixels.github.io/PixelsWebPackage/modules.html).
+and the technical documentation is published on this [page](https://gamewithpixels.github.io/PixelsWebPackage/modules.html).
 
 ### React Native
 
