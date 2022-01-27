@@ -1,6 +1,6 @@
 # Welcome!
 
-You are on the landing page for Pixel dice software development!
+You are on the landing page for Pixels dice software development!
 
 ![Two Pixels dice lighting up with multiple colors.](images/pixels_header.jpg)
 
@@ -28,26 +28,26 @@ Pixels software can be grouped in three broad categories:
 Below is a diagram showing the various applications and libraries for Pixels
 (firmware is not shown here).
 
-![Diagram showing the Pixel library for each supported framework (.NET 5, Unity, Python, ReactNative and Web) and how they access Bluetooth APIs depending on the underlying platform (Windows, Apple, Android and Web) and language.](images/pixels_libraries_flavors.svg)
+![Diagram showing the Pixels library for each supported framework (.NET 5, Unity, Python, ReactNative and Web) and how they access Bluetooth APIs depending on the underlying platform (Windows, Apple, Android and Web) and language.](images/pixels_libraries_flavors.svg)
 
-*Diagram showing the Pixel library for each supported framework (.NET 5, Unity, Python, ReactNative and Web) and how they access Bluetooth APIs depending on the underlying platform (Windows, Apple, Android and Web) and language.*
+*Diagram showing the Pixels library for each supported framework (.NET 5, Unity, Python, ReactNative and Web) and how they access Bluetooth APIs depending on the underlying platform (Windows, Apple, Android and Web) and language.*
 
 ## Applications
 
 Applications include everything meant for the end user:
 - Our iOS & Android app for customizing Pixels
-- Future Pixel integrations with virtual tabletop websites
+- Future Pixels integrations with virtual tabletop websites
 - Parts of our website that *will* have the capabilities to connect to Pixels
 - Example applications and web pages that demonstrates how to write software
 to use Pixels
 
-### Official Pixel App
+### Official Pixels App
 
-![Screenshot of the official Pixel app.](images/pixels_app.jpg)
+![Screenshot of the official Pixels app.](images/pixels_app.jpg)
 
-*Screenshot of the official Pixel app.*
+*Screenshot of the official Pixels app.*
 
-The *legacy* Pixel app shown during the
+The *prototype* Pixels app shown during the
 [Kickstarter](https://www.kickstarter.com/projects/pixels-dice/pixels-the-electronic-dice)
 campaign was developed using the Unity game engine.
 At the time this was the fastest way for us for to get the app done.
@@ -81,16 +81,16 @@ To help integrate Pixels with new or existing software, we are developing
 software libraries that provide a straightforward access to the dice features
 while taking care of the technicalities of Bluetooth communications.
 
-We provide several implementation of the Pixel library to support a variety
+We provide several implementation of the Pixels library to support a variety
 of platforms and frameworks which each having different requirements
 (programming language to use, available APIs to access Bluetooth, etc.)
 
 ### Unity Plugin
 
-Here is code snippet for Unity showing how to upload an animation to a Pixel:
-![Sample code for Unity demonstrating how to upload an animation to a Pixel.](images/unity_code_sample.png)
+Here is code snippet for Unity showing how to upload an animation to a die:
+![Sample code for Unity demonstrating how to upload an animation to a die.](images/unity_code_sample.png)
 
-*Sample code for Unity demonstrating how to upload an animation to a Pixel.*
+*Sample code for Unity demonstrating how to upload an animation to a die.*
 
 For games using Pixels, we provide a Unity plugin available from this
 [repository](https://github.com/GameWithPixels/PixelsUnityPlugin).
@@ -117,7 +117,7 @@ The native code for those platforms is fully
 
 *Sample code demonstrating how to connect to a die using TypeScript.*
 
-For web developers we've released an early version of the Pixel library
+For web developers we've released an early version of the Pixels library
 as an NPM [package](https://www.npmjs.com/package/pixels-library).
 This TypeScript package is currently in development and will be updated
 all along this year.
@@ -161,7 +161,7 @@ to connect to Pixels. We will publish a .NET package later this year.
 
 ## Firmware
 
-The firmware is a piece of code that runs on a Pixel's chip.
+The firmware is a piece of code that runs on a Pixels' chip.
 Among other things, it takes care of lighting up the dice as expected and
 handles Bluetooth Low Energy communications.
 
