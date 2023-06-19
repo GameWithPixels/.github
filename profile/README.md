@@ -1,5 +1,3 @@
-*(This readme is only visible to team members)*
-
 # Welcome!
 
 This is the right place to start looking for information on how to integrate
