@@ -8,9 +8,9 @@ characteristic is like a wireless communication channel).
 One of the two characteristics is used to send messages to the die and the other
 one to receive messages from it.
 
-The open source Pixels [firmware](
+See the open source Pixels [firmware](
     https://github.com/GameWithPixels/DiceFirmware/
-) lists all the supported messages and their associated data structure.
+) to learn more about the details of Bluetooth support with Pixels.
 
 ## Advertisement
 
@@ -88,7 +88,7 @@ This is partly to save battery life on mobile devices as the Bluetooth radio
 consumes a lot of power, and partly to keep communications latency as low as possible.
 
 This document describes only the most useful messages.
-For the complete list please refer to [bluetooth_messages.cpp](
+For the complete list please refer to [bluetooth_messages.h](
     https://github.com/GameWithPixels/DiceFirmware/blob/main/src/bluetooth/bluetooth_messages.h
 ) in the firmware code.
 
