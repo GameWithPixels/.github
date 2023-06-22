@@ -48,6 +48,22 @@ GitHub repository.
 
 # How To Start
 
+## Pixel App
+
+If you are not already familiar with the Pixels terminology
+(profile, animation, design, etc.) you may want to read our [Pixels App Guide](
+    https://github.com/GameWithPixels/PixelsApp/wiki/Pixels-App-Guide
+) to learn how to build an animation for a Pixel die.
+
+## Developers Guide
+
+Before jumping into programming please make sure to read this developer's
+[guide](doc/DevelopersGuide.md).
+It aims at pointing softare developers in the right direction when starting to write
+code to communicate with Pixels dice.
+
+## Packages
+
 We provide official support for a growing selection of platforms and will add more
 based on community feedback.
 Those libraries encapsulate the details of the Bluetooth protocol and Pixels message
@@ -70,21 +86,16 @@ We are also currently working on supporting these ones:
 Let us know on Discord if your looking for support on other platforms!
 We'll prioritize our development based on community feedback.
 
-Before jumping into programming please make sure to read this developer's
-[guide](doc/DevelopersGuide.md).
-It aims at pointing developers in the right direction when starting to write code to
-communicate with Pixels dice.
-
-Although we recommend starting with one of our official package, it is entirely possible,
-to write custom software that connects to Pixels dice on any platform.
-See these Pixels communication protocol [specifications](doc/CommunicationsProtocol.md)
-to learn more about how to communicate with Pixels without using one of our library.
-
 # Going Further
 
 The code architecture of the Pixels libraries is described in this [document](
     doc/InternalArchitecture.md
 ).
+
+Although we recommend starting with one of our official package, it is entirely possible,
+to write custom software that connects to Pixels dice on any platform.
+See these Pixels communication protocol [specifications](doc/CommunicationsProtocol.md)
+to learn more about how to communicate with Pixels without using one of our library.
 
 The Pixels dice run a bootloader and a custom firmware.
 Their respective repositories may be found [here](
