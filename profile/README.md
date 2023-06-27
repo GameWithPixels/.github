@@ -59,8 +59,13 @@ If you are not already familiar with the Pixels terminology
 
 Before jumping into programming please make sure to read this developer's
 [guide](doc/DevelopersGuide.md).
-It aims at pointing softare developers in the right direction when starting to write
-code to communicate with Pixels dice.
+
+We've build this guide based on our own experience with developing apps and
+websites that connects to Pixels die.
+
+Communicating with any wireless device can be challenging.
+In this document we list what we found out to be good practices as well as
+what to watch for when building software for Pixels dice.
 
 ## Packages
 
