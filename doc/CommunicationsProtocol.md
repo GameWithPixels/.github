@@ -126,10 +126,10 @@ This message makes the die light up its LEDs according to the values of the fiel
 | Field     | Size    | Description                                           |
 | --------- | ------- | ----------------------------------------------------- |
 | Id        | 1 byte  | Value: 29                                             |
-| Count     | 2 bytes | Number of blinks                                      |
-| Duration  | 4 bytes | Animation duration in milliseconds                    |
+| Count     | 1 byte  | Number of blinks                                      |
+| Duration  | 2 bytes | Animation duration in milliseconds                    |
 | Color     | 4 bytes | Color in 32 bits ARGB format (alpha value is ignored) |
-| Face Mask | 1 byte  | Select which faces to light up                        |
+| Face Mask | 4 bytes | Select which faces to light up                        |
 | Fade      | 1 byte  | Amount of in and out fading (*)                       |
 | Loop      | 1 byte  | Whether to indefinitely loop the animation            |
 
