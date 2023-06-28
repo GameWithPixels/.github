@@ -77,7 +77,12 @@ Those two characteristics allow for exchanging data messages between the die
 and a connected device.
 
 The "write" characteristic is used to send messages to the Pixel die whereas
-the "notify" characteristics is used to receive messages from the die.
+the "notify" characteristic is used to receive messages from the die.
+
+Be sure to listen the "notify" characteristic value changes event to get messages
+from the Pixel die.
+Sometimes this also referred as subscribing to the characteristic or getting
+notifications.
 
 ## Messages
 
