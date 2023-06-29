@@ -57,7 +57,7 @@ If you are not already familiar with the Pixels terminology
 
 ## Developers Guide
 
-Before jumping into programming please make sure to read this developer's
+Before jumping into programming please make sure to read our Pixels developer's
 [guide](doc/DevelopersGuide.md).
 
 We've build this guide based on our own experience with developing apps and
