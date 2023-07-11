@@ -3,9 +3,7 @@
 This guide aims to provide a first introduction to software developers who
 want to write code that connects to and communicates with Pixels dice.
 
-See our Kickstarter [page](
-    https://www.kickstarter.com/projects/pixels-dice/pixels-the-electronic-dice
-) to learn more about Pixels dice.
+Check our [website](https://gamewithpixels.com/) to learn more about Pixels dice.
 
 Our dice may be integrated with different types of software:
 websites, mobile apps, video games, desktop apps, etc.
