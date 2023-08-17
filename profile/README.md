@@ -81,7 +81,7 @@ We currently provide packages for the following platforms/environments:
 * Unity (iOS, Android & Windows) - [link](https://github.com/GameWithPixels/PixelsUnityPlugin)
 * Swift (iOS & MacOS) - [link](https://github.com/GameWithPixels/swift-pixels-library)
 
-We are also currently working on supporting these ones:
+We are currently working on supporting these ones:
 * Kotlin/Java (Android)
 * .NET (Windows)
 * C++ (Windows)
