@@ -151,6 +151,19 @@ and notify the user if they haven't rolled their die after a certain delay.
 It also possible to get notified of roll state changes.
 Possible states are "onFace", "handling", "rolling" and "crooked".
 
+> *Note:*
+> 
+> When not connected to, Pixels dice advertise some information such as roll state,
+> current face up and more.
+>
+> This makes it possible to read rolls without even connecting to a die.
+> But there is an important caveat: as intended by Bluetooth protocol, this
+> advertising data is not re-emitted when not received by the listening device(s).
+>
+> So this makes it possible for the listening device to miss some rolls.
+> In contrast, when connected to a die, the Pixels software ensures that all roll
+> events are always received.
+
 ## Connection Status
 
 The `Pixel` class lets the developer check for the die connection status.
