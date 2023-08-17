@@ -80,11 +80,11 @@ We currently provide packages for the following platforms/environments:
 * React Native (iOS, Android) - [link](https://github.com/GameWithPixels/pixels-js/tree/main/packages/react-native-pixels-connect)
 * Unity (iOS, Android & Windows) - [link](https://github.com/GameWithPixels/PixelsUnityPlugin)
 * Swift (iOS & MacOS) - [link](https://github.com/GameWithPixels/swift-pixels-library)
+* C++ (Windows) - [link](https://github.com/GameWithPixels/PixelsWinCpp)
 
 We are currently working on supporting these ones:
 * Kotlin/Java (Android)
 * .NET (Windows)
-* C++ (Windows)
 * Python (Windows & Raspberry Pi)
 * Unity (MacOS)
 
