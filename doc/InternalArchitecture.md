@@ -80,10 +80,10 @@ graph TD;
     NativeInterface-->AndroidNativeInterface[Android Native Interface\nC#];
     NativeInterface-->WindowsNativeInterface[Windows Native Interface\nC#];
     iOSNativeInterface-->iOSAPI[iOS API\nC];
-    AndroidNativeInterface-->AndroidLib[Android Native Library\nJava];
+    AndroidNativeInterface-->AndroidLib[Android Bluetooth Library\nJava];
     WindowsNativeInterface-->WindowsAPI[Windows API\nC];
-    iOSAPI-->iOSLib[iOS Native Library\nObjective-C];
-    WindowsAPI-->WinRTLib[Windows Native Library\nC++ WinRT];
+    iOSAPI-->iOSLib[iOS Bluetooth Library\nObjective-C];
+    WindowsAPI-->WinRTLib[Windows Bluetooth Library\nC++ WinRT];
 ```
 
 The iOS and Android libraries are the same ones than those used in the React Native package
@@ -114,7 +114,7 @@ and the React Native package described previously.
 
 ```mermaid
 graph TD;
-    Pixel[Pixel class\nSwift]-->iOSLib[iOS Native Library\nObjective-C];
+    Pixel[Pixel class\nSwift]-->iOSLib[Bluetooth Library for iOS\nObjective-C]-->CoreBluetooth[Apple CoreBluetooth];
 ```
 
 See our Pixels package for Swift: [*swift-pixels-library*](
@@ -123,14 +123,12 @@ See our Pixels package for Swift: [*swift-pixels-library*](
 
 ## Windows C++
 
-> /!\ Not yet published.
-
 The Windows C++ package is based on the same Windows RT native library than the one used
 in the Unity Plugin described previously.
 
 ```mermaid
 graph TD;
-    Pixel[Pixel class\nC++]-->WinRTLib[Windows Native Library\nC++ WinRT];
+    Pixel[Pixel class\nC++]-->WinRTLib[Bluetooth Library for Windows\nC++]-->WinRTBluetooth[Microsoft WinRT Bluetooth];
 ```
 
 ## .NET
@@ -142,7 +140,7 @@ Library with some adaptations for the .NET platform.
 
 ```mermaid
 graph TD;
-    Pixel[Pixel class\nC#]-->WinRTLib[Windows Native Library\nC# WinRT];
+    Pixel[Pixel class\nC#]-->WinRTLib[Bluetooth Library for Windows\nC#]-->WinRTBluetooth[Microsoft WinRT Bluetooth];
 ```
 
 ## Python
@@ -155,5 +153,5 @@ The python package only supports the Raspberry Pi at the moment and is using the
 
 ```mermaid
 graph TD;
-    Pixel[Pixel class\nPython]-->bluepy[bluepy Library\nPython];
+    Pixel[Pixel class\nPython]-->bluepy[bluepy Library\nPython]-->LinuxBluetooth[Linux Bluetooth];
 ```
