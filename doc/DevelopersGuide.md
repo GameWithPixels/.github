@@ -84,6 +84,12 @@ Any of these issues might happen while the above code sample is being executed
 and which will eventually result in an exception being thrown by one of the
 asynchronous call made to the Pixels package.
 
+> *Note:*
+> 
+> There is no need to pair Pixels dice with the operating system before
+> attempting to connect to them.
+> In fact pairing will fail on most OSes as this is not a supported feature.
+
 ## User Experience
 
 In the above section we've seen that communicating with Pixels may sometimes
