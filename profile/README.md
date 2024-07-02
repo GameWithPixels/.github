@@ -58,7 +58,7 @@ If you are not already familiar with the Pixels terminology
 ## Developers Guide
 
 Before jumping into programming please make sure to read our Pixels developer's
-[guide](doc/DevelopersGuide.md).
+[guide](../doc/DevelopersGuide.md).
 
 We've build this guide based on our own experience with developing apps and
 websites that connects to Pixels die.
@@ -94,12 +94,12 @@ We'll prioritize our development based on community feedback.
 # Going Further
 
 The code architecture of the Pixels libraries is described in this [document](
-    doc/InternalArchitecture.md
+    ../doc/InternalArchitecture.md
 ).
 
 Although we recommend starting with one of our official package, it is entirely possible,
 to write custom software that connects to Pixels dice on any platform.
-See these Pixels communication protocol [specifications](doc/CommunicationsProtocol.md)
+See these Pixels communication protocol [specifications](../doc/CommunicationsProtocol.md)
 to learn more about how to communicate with Pixels without using one of our library.
 
 The Pixels dice run a bootloader and a custom firmware.
