@@ -3,7 +3,7 @@
 This is the right place to start looking for information on how to integrate
 Pixels dice with an app or a website.
 
-![Two Pixels dice lighting up with multiple colors.](images/pixels_header.jpg)
+![Two Pixels dice lighting up with multiple colors.](../images/pixels_header.jpg)
 
 *Two Pixels dice lighting up with multiple colors.*
 
