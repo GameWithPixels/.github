@@ -50,10 +50,11 @@ GitHub repository.
 
 ## Pixel App
 
-If you are not already familiar with the Pixels terminology
-(profile, animation, design, etc.) you may want to read our [Pixels App Guide](
-    https://github.com/GameWithPixels/PixelsApp/wiki/Pixels-App-Guide
-) to learn how to build an animation for a Pixel die.
+The app is available on the Apple App Store [here](
+  https://apps.apple.com/us/app/pixels-the-electronic-dice/id1532993928
+) and on Google Play [here](
+  https://play.google.com/store/apps/details?id=com.SystemicGames.Pixels
+).
 
 ## Developers Guide
 
