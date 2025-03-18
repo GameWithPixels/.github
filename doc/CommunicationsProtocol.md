@@ -136,7 +136,7 @@ This message makes the die light up its LEDs according to the values of the fiel
 | Color     | 4 bytes | Color in 32 bits ARGB format (alpha value is ignored) |
 | Face Mask | 4 bytes | Select which faces to light up                        |
 | Fade      | 1 byte  | Amount of in and out fading (*)                       |
-| Loop      | 1 byte  | Whether to indefinitely loop the animation            |
+| Loop Count| 1 byte  | How many times this animation should play             |
 
 (*) Sharpness value:
 - 0: sharp transition
