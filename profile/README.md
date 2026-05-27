@@ -103,9 +103,3 @@ to write custom software that connects to Pixels dice on any platform.
 See these Pixels communication protocol [specifications](../doc/CommunicationsProtocol.md)
 to learn more about how to communicate with Pixels without using one of our library.
 
-The Pixels dice run a bootloader and a custom firmware.
-Their respective repositories may be found [here](
-    https://github.com/GameWithPixels/DiceBootloader
-) and [there](
-    https://github.com/GameWithPixels/DiceFirmware/
-).
